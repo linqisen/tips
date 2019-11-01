@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b0e6ff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#7fa4f4",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "image/icon_tips.png",
+        "selectedIconPath": "image/icon_tips_HL.png",
+        "text": "小贴士"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/gerenzhongxin.png",
+        "selectedIconPath": "image/gerenzhongxin_HL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view style="position:absolute;height:300rpx;width:100%;background:#b0e6ff;z-index:-1;"></view>
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{hasUserInfo ? userInfo.avatarUrl : '../../image/touxiang.png'}}" mode="cover"></image>
+      <text class="userinfo-nickname" wx:if="{{hasUserInfo}}">{{userInfo.nickName}}</text>
+      <button class="get-userinfo"  wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取头像昵称</button>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/info/info.wxml-->
+
+<view class="content">
+  <view class="line-content line-border-bottom">
+    <view>头像</view>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  </view>
+  <view class="line-content">
+    <view>昵称</view>
+    <view>{{userInfo.nickName}}</view>
+  </view>
+</view>

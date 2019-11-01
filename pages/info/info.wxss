@@ -1,0 +1,22 @@
+/* pages/info/info.wxss */
+.line-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150rpx;
+}
+
+.content{
+  font-size: 32rpx;
+  padding: 20rpx 50rpx;
+}
+
+.line-border-bottom{
+  border-bottom:1px solid #e0e0e0 ;
+}
+
+.userinfo-avatar{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 20rpx;
+}
